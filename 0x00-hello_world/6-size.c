@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ *bits
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,5 +12,5 @@ int main(void)
 	printf("Size of a long int: %d bytte(s)\n",sizeof(long int));
 	printf("Size of a long long int: %d bytte(s)\n",sizeof(long long int));
 	printf("Size of a float: %d bytte(s)\n",sizeof(float));
-    return (0);
+	return (0);
 }
