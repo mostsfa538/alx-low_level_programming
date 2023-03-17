@@ -11,14 +11,14 @@
  */
 int main(void)
 {
-        int n;
+	int n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-	for(n = 0; n <= 9; n++)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	for (n = 0; n <= 9; n++)
 	{
 		printf("%d", n);
-        }
+	}
 	printf("\n");
-	return(0);
+	return (0);
 }
