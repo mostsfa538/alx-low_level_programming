@@ -11,18 +11,18 @@
  */
 int main(void)
 {
-        int n;
+	int n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-	for(n = 'a'; n <= 'z'; n++)
-        {
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	for (n = 'a'; n <= 'z'; n++)
+	{
 		putchar(n);
-        }
-	for(n = 'A'; n <= 'Z'; n++)
+	}
+	for (n = 'A'; n <= 'Z'; n++)
 	{
 		putchar(n);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
