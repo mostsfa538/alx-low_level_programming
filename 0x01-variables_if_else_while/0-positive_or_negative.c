@@ -4,6 +4,11 @@
 /* 0. Positive anything is better than negative nothing */
 
 /*n the variable n is positive or negative.*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
