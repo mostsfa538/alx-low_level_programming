@@ -11,21 +11,21 @@
  */
 int main(void)
 {
-        int n;
+	int n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-	for(n = 'a'; n <= 'z'; n++)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		if( n == 'q' || n == 'e')
+		if (n == 'q' || n == 'e')
 		{
 			continue;
 		}
 		else
 		{
-                putchar(n);
+			putchar(n);
 		}
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
