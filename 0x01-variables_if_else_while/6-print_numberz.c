@@ -15,10 +15,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	for(n = 0; n <= 9; n++)
+	for (n = 0; n <= 9; n++)
 	{
 	putchar(n + '0');
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
