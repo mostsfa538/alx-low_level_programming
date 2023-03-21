@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+
+ * print_alphabet - print all alphabet in lowercase
+
  */
 
 void print_alphabet(void)
