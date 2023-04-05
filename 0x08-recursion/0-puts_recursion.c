@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * swap_int - swaps the values of two integers
- * @a: integer to swap
- * @b: integer to swap
+ * _puts_recursion - function like puts ();
+ * @s: input
+ * REturn Always 0 (Success)
  */
 void _puts_recursion(char *s)
 {
