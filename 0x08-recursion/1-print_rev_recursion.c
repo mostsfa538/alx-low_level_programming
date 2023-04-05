@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * swap_int - swaps the values of two integers
- * @a: integer to swap
- * @b: integer to swap
+ * _print_rev_recursion
+ * make parameter 's'
+ * @a: '_print_rev_recursion'
+ * @b: '_print_rev_recursion'
  */
 void _print_rev_recursion(char *s)
 {
