@@ -22,7 +22,7 @@ def island_perimeter(grid):
                 checkOnes = 1
                 firstShow_row = row
                 firstShow_coulm = column
-            elif grid[row][column] == 1:
+            if grid[row][column] == 1:
                 lastShow_row = row
                 lastShow_coulm = column
 
