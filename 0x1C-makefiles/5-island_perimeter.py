@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""here goes every thing"""
+
 
 def island_perimeter(grid):
     """
