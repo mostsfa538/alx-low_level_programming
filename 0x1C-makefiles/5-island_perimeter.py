@@ -1,6 +1,13 @@
+#!/usr/bin/python3
+
 def island_perimeter(grid):
     """
     Returns the perimeter of the island described in grid
+    Args:
+        grid (list of list of int): The grid representing the island,
+        where 1 represents land and 0 represents water.
+    Returns:
+        int: The perimeter of the island.
     """
     checkOnes = 0
     firstShow_row = 0
