@@ -17,7 +17,7 @@ def island_perimeter(grid):
     lastShow_row = 0
     lastShow_coulm = 0
     for row in range(len(grid)):
-        for column in range(len(grid[0])):
+        for column in range(len(grid[row])):
             if grid[row][column] == 1 and checkOnes == 0:
                 checkOnes = 1
                 firstShow_row = row
