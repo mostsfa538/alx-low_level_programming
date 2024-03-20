@@ -26,7 +26,7 @@ def island_perimeter(grid):
                 lastShow_row = row
                 lastShow_coulm = column
 
-    if firstShow_row == 0:
+    if checkOnes == 0:
         return 0
     result_co = (lastShow_coulm - firstShow_coulm + 1) * 2
     result_ro = (lastShow_row - firstShow_row + 1) * 2
